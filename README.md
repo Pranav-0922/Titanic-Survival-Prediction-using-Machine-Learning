@@ -62,7 +62,7 @@ The dataset is taken from the Kaggle Titanic competition and includes features l
  * Decision Trees can overfit if not properly tuned
  * Model comparison helps in selecting the best approach
 
-##▶️ **How to Set Up and Run**
+## ▶️ **How to Set Up and Run**
    1. Install Required Libraries
    ```bash
             pip install numpy pandas scikit-learn
