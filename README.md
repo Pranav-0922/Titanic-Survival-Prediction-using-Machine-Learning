@@ -43,7 +43,7 @@ The dataset is taken from the Kaggle Titanic competition and includes features l
  * Tuned Decision Tree parameters (max_depth, min_samples_split)
  * Carefully selected relevant features for better generalization
 
-##📊 **Results**
+## 📊 **Results**
 
            | Model                 | Accuracy (approx) |
            | --------------------- | ----------------- |
