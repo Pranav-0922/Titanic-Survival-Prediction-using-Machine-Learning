@@ -37,11 +37,11 @@ The dataset is taken from the Kaggle Titanic competition and includes features l
  * Overfitting in Decision Tree model
  * Different feature scales affecting model performance
 
-🛠️ **Resolutions**
-     * Used median and mode to fill missing values
-     * Applied StandardScaler for KNN and Logistic Regression
-     * Tuned Decision Tree parameters (max_depth, min_samples_split)
-     * Carefully selected relevant features for better generalization
+## 🛠️ **Resolutions**
+ * Used median and mode to fill missing values
+ * Applied StandardScaler for KNN and Logistic Regression
+ * Tuned Decision Tree parameters (max_depth, min_samples_split)
+ * Carefully selected relevant features for better generalization
 
 ##📊 **Results**
 
@@ -51,16 +51,16 @@ The dataset is taken from the Kaggle Titanic competition and includes features l
            | KNN (with scaling)    | ~78–82%           |
            | Decision Tree (tuned) | ~82–85%           |
 
-##👉 **Best Performing Model**
-    * In my Scenerio,The Logistic Regression model achieved the highest accuracy of 80.4%, which is equal to KNN and slightly better than        Decision Tree.This indicates that the dataset has relatively simple and linearly separable patterns. Logistic Regression performs          well in such cases because it models the probability of survival using a linear decision boundary.
-    * KNN also achieved the same accuracy due to proper feature scaling, which ensures accurate distance calculations.
+## 👉 **Best Performing Model**
+ * In my Scenerio,The Logistic Regression model achieved the highest accuracy of 80.4%, which is equal to KNN and slightly better than        Decision Tree.This indicates that the dataset has relatively simple and linearly separable patterns. Logistic Regression performs         well in such cases because it models the probability of survival using a linear decision boundary.
+ * KNN also achieved the same accuracy due to proper feature scaling, which ensures accurate distance calculations.
 
-##📚 **Learnings**
-    * Importance of data preprocessing in machine learning
-    * Handling missing values effectively
-    * Feature scaling is crucial for distance-based models like KNN
-    * Decision Trees can overfit if not properly tuned
-    * Model comparison helps in selecting the best approach
+## 📚 **Learnings**
+ * Importance of data preprocessing in machine learning
+ * Handling missing values effectively
+ * Feature scaling is crucial for distance-based models like KNN
+ * Decision Trees can overfit if not properly tuned
+ * Model comparison helps in selecting the best approach
 
 ##▶️ **How to Set Up and Run**
    1. Install Required Libraries
@@ -79,5 +79,5 @@ The dataset is taken from the Kaggle Titanic competition and includes features l
     * Accuracy comparison table will be displayed in the console
     * Best performing model will be identified
 
-##📌 Conclusion:
-This project demonstrates how different machine learning models perform on the same dataset and highlights the importance of preprocessing, feature scaling, and model tuning in achieving better results.
+## 📌 Conclusion:
+  This project demonstrates how different machine learning models perform on the same dataset and highlights the importance of preprocessing, feature scaling, and model tuning in achieving better results.
