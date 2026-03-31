@@ -31,17 +31,17 @@ The dataset is taken from the Kaggle Titanic competition and includes features l
       * Compared models using accuracy score
       * Created a comparison table to identify the best-performing model
 
-##⚠️ **Difficulties Faced**
-     * Handling missing values in Age and Embarked columns
-     * Poor performance of KNN without feature scaling
-     * Overfitting in Decision Tree model
-     * Different feature scales affecting model performance
+⚠️ **Difficulties Faced**
+      * Handling missing values in Age and Embarked columns
+      * Poor performance of KNN without feature scaling
+      * Overfitting in Decision Tree model
+      * Different feature scales affecting model performance
 
-##🛠️ **Resolutions**
-    * Used median and mode to fill missing values
-    * Applied StandardScaler for KNN and Logistic Regression
-    * Tuned Decision Tree parameters (max_depth, min_samples_split)
-    * Carefully selected relevant features for better generalization
+🛠️ **Resolutions**
+     * Used median and mode to fill missing values
+     * Applied StandardScaler for KNN and Logistic Regression
+     * Tuned Decision Tree parameters (max_depth, min_samples_split)
+     * Carefully selected relevant features for better generalization
 
 ##📊 **Results**
 
