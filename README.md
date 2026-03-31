@@ -32,7 +32,6 @@ The dataset is taken from the Kaggle Titanic competition and includes features l
       * Created a comparison table to identify the best-performing model
 
 # ⚠️ **Difficulties Faced**
-
 * Handling missing values in Age and Embarked columns
 * Poor performance of KNN without feature scaling
 * Overfitting in Decision Tree model
